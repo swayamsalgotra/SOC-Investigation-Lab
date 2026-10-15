@@ -1,0 +1,1 @@
+10/15/2026-17:53:26.069543  [**] [1:1000002:1] SOC LAB - Possible TCP SYN scan burst [**] [Classification: (null)] [Priority: 3] {TCP} 127.0.0.1:39360 -> 127.0.0.1:53

@@ -1,0 +1,20 @@
+[63832 - Suricata-Main] 2026-10-15 20:58:38 Notice: suricata: This is Suricata version 8.0.7 RELEASE running in USER mode
+[63832 - Suricata-Main] 2026-10-15 20:58:38 Info: cpu: CPUs/cores online: 3
+[63832 - Suricata-Main] 2026-10-15 20:58:38 Info: suricata: Setting engine mode to IDS mode by default
+[63832 - Suricata-Main] 2026-10-15 20:58:38 Info: exception-policy: master exception-policy set to: auto
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: suricata: Preparing unexpected signal handling
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: logopenfile: fast output device (regular) initialized: fast.log
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: logopenfile: stats output device (regular) initialized: stats.log
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0 rules skipped
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: detect: 4 signatures processed. 0 are IP-only rules, 1 are inspecting packet payload, 2 inspect application layer, 0 are decoder event only
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[63834 - RX#01] 2026-10-15 20:58:39 Info: pcap: Starting file run for captures/user-agent-test.pcap
+[63834 - RX#01] 2026-10-15 20:58:39 Info: pcap: pcap file captures/user-agent-test.pcap end of file reached (pcap err code 0)
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Notice: threads: Threads created -> RX: 1 W: 3 FM: 1 FR: 1   Engine started.
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Notice: suricata: Signal Received.  Stopping engine.
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: suricata: time elapsed 0.058s
+[63834 - RX#01] 2026-10-15 20:58:39 Notice: pcap: read 1 file, 12 packets, 1677 bytes
+[63832 - Suricata-Main] 2026-10-15 20:58:39 Info: counters: Alerts: 1
+[63833 - US] 2026-10-15 20:58:39 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket' closed
