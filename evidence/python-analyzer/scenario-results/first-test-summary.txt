@@ -1,0 +1,11 @@
+
+=== Suricata SOC Alert Summary ===
+Input file:        alerts/first-test/eve.json
+Valid JSON events: 2
+Total alerts:      0
+Malformed lines:   0
+
+No alert events found.
+
+CSV report written to: evidence/python-analyzer/scenario-results/first-test-alerts.csv
+CSV alert rows: 0

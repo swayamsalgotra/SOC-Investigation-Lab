@@ -1,0 +1,2 @@
+timestamp,signature,signature_id,severity,src_ip,src_port,dest_ip,dest_port,category,action
+2026-10-15T19:52:12.440466+0530,SOC LAB - DNS query for example.com,1000003,3,10.0.2.15,33822,192.168.1.1,53,,allowed

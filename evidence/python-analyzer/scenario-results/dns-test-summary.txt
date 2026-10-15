@@ -1,0 +1,24 @@
+
+=== Suricata SOC Alert Summary ===
+Input file:        alerts/dns-test/eve.json
+Valid JSON events: 5
+Total alerts:      1
+Malformed lines:   0
+
+--- Alert details ---
+
+Time:        2026-10-15T19:52:12.440466+0530
+Signature:   SOC LAB - DNS query for example.com
+SID:         1000003
+Severity:    3
+Source:      10.0.2.15:33822
+Destination: 192.168.1.1:53
+
+--- Alerts by signature ---
+   1  SOC LAB - DNS query for example.com
+
+--- Alerts by source IP ---
+   1  10.0.2.15
+
+CSV report written to: evidence/python-analyzer/scenario-results/dns-test-alerts.csv
+CSV alert rows: 1

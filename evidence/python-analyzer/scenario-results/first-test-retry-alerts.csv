@@ -1,0 +1,2 @@
+timestamp,signature,signature_id,severity,src_ip,src_port,dest_ip,dest_port,category,action
+2026-10-15T17:45:05.094481+0530,SOC LAB TEST - HTTP marker detected,1000001,3,127.0.0.1,33584,127.0.0.1,8000,,allowed

@@ -1,0 +1,11 @@
+
+=== Suricata SOC Alert Summary ===
+Input file:        alerts/user-agent-normal/eve.json
+Valid JSON events: 4
+Total alerts:      0
+Malformed lines:   0
+
+No alert events found.
+
+CSV report written to: evidence/python-analyzer/scenario-results/user-agent-normal-alerts.csv
+CSV alert rows: 0

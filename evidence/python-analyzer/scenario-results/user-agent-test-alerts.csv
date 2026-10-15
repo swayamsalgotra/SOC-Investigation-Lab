@@ -1,0 +1,2 @@
+timestamp,signature,signature_id,severity,src_ip,src_port,dest_ip,dest_port,category,action
+2026-10-15T20:57:38.688247+0530,SOC LAB - Test suspicious HTTP User-Agent detected,1000004,3,127.0.0.1,41042,127.0.0.1,8000,,allowed
