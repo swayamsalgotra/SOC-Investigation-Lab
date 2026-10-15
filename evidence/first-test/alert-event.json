@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-15T17:45:05.094481+0530",
+  "flow_id": 364628467040274,
+  "pcap_cnt": 7,
+  "event_type": "alert",
+  "src_ip": "127.0.0.1",
+  "src_port": 33584,
+  "dest_ip": "127.0.0.1",
+  "dest_port": 8000,
+  "proto": "TCP",
+  "ip_v": 4,
+  "pkt_src": "wire/pcap",
+  "alert": {
+    "action": "allowed",
+    "gid": 1,
+    "signature_id": 1000001,
+    "rev": 1,
+    "signature": "SOC LAB TEST - HTTP marker detected",
+    "category": "",
+    "severity": 3
+  },
+  "app_proto": "http",
+  "direction": "to_server",
+  "flow": {
+    "pkts_toserver": 4,
+    "pkts_toclient": 3,
+    "bytes_toserver": 362,
+    "bytes_toclient": 391,
+    "start": "2026-10-15T17:45:05.084896+0530",
+    "src_ip": "127.0.0.1",
+    "dest_ip": "127.0.0.1",
+    "src_port": 33584,
+    "dest_port": 8000
+  }
+}

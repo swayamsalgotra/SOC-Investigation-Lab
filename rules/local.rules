@@ -1,0 +1,5 @@
+alert tcp any any -> any any (msg:"SOC LAB TEST - HTTP marker detected"; flow:established,to_server; content:"SOC-LAB-TEST"; sid:1000001; rev:1;)
+
+alert tcp any any -> any any (msg:"SOC LAB - Possible TCP SYN scan burst"; flags:S; flow:stateless; threshold:type threshold, track by_src, count 8, seconds 10; sid:1000002; rev:1;)
+
+alert dns any any -> any any (msg:"SOC LAB - DNS query for example.com"; dns.query; content:"example.com"; nocase; sid:1000003; rev:1;)

@@ -1,0 +1,1 @@
+alert tcp any any -> any any (msg:"SOC LAB TEST - HTTP marker detected"; flow:established,to_server; content:"SOC-LAB-TEST"; sid:1000001; rev:1;)

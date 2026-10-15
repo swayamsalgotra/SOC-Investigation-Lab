@@ -1,0 +1,24 @@
+
+=== Suricata SOC Alert Summary ===
+Input file:        /root/SOC-Investigation-Lab/alerts/port-scan-test/eve.json
+Valid JSON events: 13
+Total alerts:      1
+Malformed lines:   0
+
+--- Alert details ---
+
+Time:        2026-10-15T17:53:26.069543+0530
+Signature:   SOC LAB - Possible TCP SYN scan burst
+SID:         1000002
+Severity:    3
+Source:      127.0.0.1:39360
+Destination: 127.0.0.1:53
+
+--- Alerts by signature ---
+   1  SOC LAB - Possible TCP SYN scan burst
+
+--- Alerts by source IP ---
+   1  127.0.0.1
+
+CSV report written to: /root/SOC-Investigation-Lab/reports/first-test/port-scan-alerts.csv
+CSV alert rows: 1

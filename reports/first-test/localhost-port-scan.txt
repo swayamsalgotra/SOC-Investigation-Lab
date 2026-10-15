@@ -1,0 +1,12 @@
+# Nmap 7.991 scan initiated Thu Oct 15 17:50:49 2026 as: /usr/lib/nmap/nmap -sT -Pn -p 22,80,443,8000,8080 -oN /root/SOC-Investigation-Lab/reports/first-test/localhost-port-scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00049s latency).
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   open   http
+443/tcp  closed https
+8000/tcp closed http-alt
+8080/tcp closed http-proxy
+
+# Nmap done at Thu Oct 15 17:50:49 2026 -- 1 IP address (1 host up) scanned in 0.04 seconds
