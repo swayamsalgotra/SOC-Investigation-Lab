@@ -163,3 +163,39 @@ Run checksum verification from the directory containing the relevant `SHA256SUMS
 ## Disclaimer
 
 All tests were performed against controlled lab traffic and localhost systems for educational purposes. Only test systems and networks for which authorization is available should be examined.
+
+## Validated Analyzer Scenario Results
+
+The committed directory `evidence/python-analyzer/scenario-results/`
+contains a text summary and CSV alert export for each recorded Suricata
+test run.
+
+| Scenario | Parsed events | Alerts |
+|---|---:|---:|
+| DNS test | 5 | 1 |
+| First test | 2 | 0 |
+| HTTP marker retry | 5 | 1 |
+| Port-scan test | 13 | 1 |
+| Normal User-Agent | 4 | 0 |
+| Suspicious User-Agent | 5 | 1 |
+
+These counts reflect the recorded EVE JSON files and are not a measure
+of general detection accuracy. The normal User-Agent test demonstrates
+only that its specific test input did not trigger the custom rule.
+
+To inspect a recorded result, for example:
+
+```bash
+cat evidence/python-analyzer/scenario-results/port-scan-test-summary.txt
+cat evidence/python-analyzer/scenario-results/port-scan-test-alerts.csv
+```
+
+To verify the committed analyzer-result files, run:
+
+```bash
+cd evidence/python-analyzer/scenario-results
+sha256sum -c SHA256SUMS
+```
+
+Return to the repository root with `cd ~/SOC-Investigation-Lab` before
+running other project commands.
