@@ -1,0 +1,1 @@
+10/15/2026-20:57:38.688247  [**] [1:1000004:1] SOC LAB - Test suspicious HTTP User-Agent detected [**] [Classification: (null)] [Priority: 3] {TCP} 127.0.0.1:41042 -> 127.0.0.1:8000
