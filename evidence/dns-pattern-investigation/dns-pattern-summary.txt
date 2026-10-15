@@ -1,0 +1,28 @@
+DNS TRAFFIC INVESTIGATION SUMMARY
+==================================
+Input file: captures/dns-pattern-test/dns-events.csv
+DNS packets in CSV: 8
+Queries: 4
+Responses: 4
+Unique queried domains: 4
+Query source IPs: 1
+
+Query types (TShark numeric codes):
+  Type 1: 4
+
+Most queried domains:
+  example.com: 1
+  example.org: 1
+  example.net: 1
+  iana.org: 1
+
+Non-zero response codes: 0
+
+Long query names (>50 characters): 0
+
+Repeated domains (5+ queries): 0
+
+INTERPRETATION
+These are triage heuristics, not proof of malicious activity.
+Non-zero DNS response codes can be legitimate; long names and repetition
+need context, a larger baseline, and further investigation.

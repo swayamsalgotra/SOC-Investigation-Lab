@@ -1,0 +1,4 @@
+1435bdba9764d3ef428569f2b9a9959e379fbc1d0fa9ec4772692a7dd066eba3  dns-patterns.pcap
+6307a829fcdab3594ba089f4172e32e182a4eeba3ffafcfd55bceff1be32e2ef  dns-events.csv
+a13adb2811dde56ce9f7d6cd9f3049d5b7babaf855db5b1a9223e1be82dace55  analyze_dns.py
+6bca1aa78616c33a70070851ac5c44019507a298b41c5608a3d552393ede8a29  dns-pattern-summary.txt
